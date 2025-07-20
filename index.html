@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sannepalli Brahmani - Portfolio</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Sannepalli Brahmani</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sannepalli Brahmani</span><br>Undergraduate Student</h1>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/brahmani-sannepalli-5a3ab528a/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <!-- Add more social icons if desired -->
+            </div>
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/pic1.jpg" onerror="this.onerror=null;this.src='https://placehold.co/360x400/A768F8/ffffff?text=Your+Photo';"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/pic2.jpg" alt="About Photo" onerror="this.onerror=null;this.src='https://placehold.co/200x200/A768F8/ffffff?text=About+Photo';"/>
+                </div>
+                <div>
+                    <h2 class="about__subtitle">Passionate Engineer & Developer</h2>
+                    <p class="about__text">
+                        Undergraduate Computer Science & Engineering student at KL University (2022-2026) with a strong foundation in programming, cloud and DevOps, and analytical problem-solving. Certified in AWS, Red Hat, Oracle Cloud AI, and ServiceNow. Experienced in full stack projects, graph theory, and technical competitions, with a track record of impactful, efficiency-boosting solutions and a passion for continuous learning and innovation.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Technical Skills</h2>
+                    <p class="skills__text">Here are some of the technical skills I've acquired through my education, certifications, and projects.</p>
+                    <!-- Programming Languages -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-terminal skills__icon'></i>
+                            <span class="skills__name">Programming Languages (Java, JavaScript, C)</span>
+                        </div>
+                        <div class="skills__bar skills__programming"></div>
+                        <div><span class="skills__percentage">90%</span></div>
+                    </div>
+                    <!-- Full Stack Development -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">Full Stack (React.js, Node.js)</span>
+                        </div>
+                        <div class="skills__bar skills__webdev"></div>
+                        <div><span class="skills__percentage">90%</span></div>
+                    </div>
+                    <!-- Cloud & DevOps -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-cloud skills__icon'></i>
+                            <span class="skills__name">Cloud & DevOps (AWS, Linux)</span>
+                        </div>
+                        <div class="skills__bar skills__cloud"></div>
+                        <div><span class="skills__percentage">80%</span></div>
+                    </div>
+                    <!-- Databases -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">Databases (MySQL, MongoDB)</span>
+                        </div>
+                        <div class="skills__bar skills__databases"></div>
+                        <div><span class="skills__percentage">85%</span></div>
+                    </div>
+                    <!-- Soft Skills -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-user-voice skills__icon'></i>
+                            <span class="skills__name">Soft Skills (Analytical Thinking, Creativity, Communication, Adaptability, Leadership)</span>
+                        </div>
+                        <div class="skills__bar skills__softskills"></div>
+                        <div><span class="skills__percentage">95%</span></div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://placehold.co/400x300/A768F8/ffffff?text=Skills+Image" alt="Skills Image" class="skills__img">
+                </div>
+            </div>
+        </section>
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                <div class="work__item">
+                    <h3 class="work__title">Airline Management System</h3>
+                    <p class="work__description">Python Full Stack Development: Developed an automated airline operations platform optimizing scheduling, bookings, and passenger management. Achieved a 20% improvement in efficiency and reduced booking errors by 35%.</p>
+                    <span class="work__tech">Python, Django/Flask, SQL</span>
+                    <img src="https://placehold.co/400x300/D21F3C/ffffff?text=Airline+Mgmt+System" alt="Airline Management Project" class="work__img">
+                </div>
+                <div class="work__item">
+                    <h3 class="work__title">Library Management System</h3>
+                    <p class="work__description">Red Hat: Designed an automated user registration and book management system. Accelerated loan processing times by 25% and reduced staff workload by 15 hours weekly.</p>
+                    <span class="work__tech">Red Hat, Java, MySQL</span>
+                    <img src="https://placehold.co/400x300/483D8B/ffffff?text=Library+Project" alt="Library Project" class="work__img">
+                </div>
+                <div class="work__item">
+                    <h3 class="work__title">Politician-Citizen Interaction System</h3>
+                    <p class="work__description">JFSD: Engineered a digital engagement platform to promote transparency, reduce grievance response time by 40%, and enable real-time issue tracking for participatory governance.</p>
+                    <span class="work__tech">Java Full Stack, REST APIs</span>
+                    <img src="https://placehold.co/400x300/8A2BE2/ffffff?text=Citizen+Interaction" alt="Interaction Project" class="work__img">
+                </div>
+            </div>
+        </section>
+        <!--===== EXPERIENCE =====-->
+        <section class="work section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="work__container bd-grid experience__grid">
+                <div class="work__item experience__item">
+                    <h3 class="work__title">Algo Graph Camp – Graph Theory Learning Program</h3>
+                    <p class="work__description">KL University, 2025</p>
+                    <ul>
+                        <li>Participated in an immersive university-level program focused on graph theory and its applications.</li>
+                        <li>Secured 30th rank among participants, demonstrating analytical and algorithmic skills.</li>
+                    </ul>
+                </div>
+                <div class="work__item experience__item">
+                    <h3 class="work__title">Java Full Stack Developer – EduSkills Virtual Internship</h3>
+                    <p class="work__description">July 2024 – September 2024</p>
+                    <ul>
+                        <li>Completed 10-week internship with hands-on experience in Java, Spring Boot, and RESTful services.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      <!--===== CERTIFICATIONS & EVENTS (OPTIONAL SECTION) =====-->
+<section class="skills section" id="certifications">
+  <h2 class="section-title" style="text-align:center; margin-bottom:1.2em;">
+    Certifications & Achievements
+  </h2>
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+  ">
+    <div style="
+      background: #f7f5fb;
+      box-shadow: 0 2px 12px rgba(127,81,231,0.10);
+      border-radius: 1.2em;
+      padding: 1.7em 2em;
+      min-width: 230px;
+      max-width: 270px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+      transition: transform 0.2s, box-shadow 0.22s;
+    " onmouseover="this.style.transform='translateY(-7px) scale(1.045)';this.style.boxShadow='0 8px 28px rgba(127,81,231,0.18)';this.style.background='#efe5ff';"
+    onmouseout="this.style.transform='none';this.style.boxShadow='0 2px 12px rgba(127,81,231,0.10)';this.style.background='#f7f5fb';">
+      <h3 style="font-size:1.15em;margin:0.3em 0 0.5em 0;font-weight:600;color:#482884;">
+        AWS Certified Cloud Practitioner
+      </h3>
+      <div style="color:#7f7c97;font-size:0.97em;margin-bottom:1.1em;">
+        Feb 15, 2025
+      </div>
+      <a href="https://www.credly.com/badges/f9779c79-9505-4f6a-ae63-9897965a1723/public_url" target="_blank"
+         style="background:#7f51e7;color:white;font-weight:500;padding:0.55em 1.3em;
+         border-radius:0.8em;text-decoration:none;transition:background 0.15s;box-shadow:0 2px 4px rgba(110,80,255,0.10);margin-top:auto;"
+         onmouseover="this.style.background='#482884'"
+         onmouseout="this.style.background='#7f51e7'">
+        View Certification
+      </a>
+    </div>
+    <div style="background: #f7f5fb; box-shadow: 0 2px 12px rgba(127,81,231,0.10); border-radius: 1.2em; padding: 1.7em 2em; min-width: 230px; max-width: 270px; text-align: center; display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem; transition: transform 0.2s, box-shadow 0.22s;" onmouseover="this.style.transform='translateY(-7px) scale(1.045)';this.style.boxShadow='0 8px 28px rgba(127,81,231,0.18)';this.style.background='#efe5ff';" onmouseout="this.style.transform='none';this.style.boxShadow='0 2px 12px rgba(127,81,231,0.10)';this.style.background='#f7f5fb';">
+      <h3 style="font-size:1.15em;margin:0.3em 0 0.5em 0;font-weight:600;color:#482884;">
+        Red Hat Enterprise App Developer
+      </h3>
+      <div style="color:#7f7c97;font-size:0.97em;margin-bottom:1.1em;">
+        Sept 19, 2024
+      </div>
+      <a href="https://drive.google.com/file/d/1KRs9RuAs0mMEe-OO-bOwKBLu03l9xEAT/view?usp=sharing" target="_blank"
+         style="background:#7f51e7;color:white;font-weight:500;padding:0.55em 1.3em;
+         border-radius:0.8em;text-decoration:none;transition:background 0.15s;box-shadow:0 2px 4px rgba(110,80,255,0.10);margin-top:auto;"
+         onmouseover="this.style.background='#482884'"
+         onmouseout="this.style.background='#7f51e7'">
+        View Certification
+      </a>
+    </div>
+    <div style="background: #f7f5fb; box-shadow: 0 2px 12px rgba(127,81,231,0.10); border-radius: 1.2em; padding: 1.7em 2em; min-width: 230px; max-width: 270px; text-align: center; display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem; transition: transform 0.2s, box-shadow 0.22s;" onmouseover="this.style.transform='translateY(-7px) scale(1.045)';this.style.boxShadow='0 8px 28px rgba(127,81,231,0.18)';this.style.background='#efe5ff';" onmouseout="this.style.transform='none';this.style.boxShadow='0 2px 12px rgba(127,81,231,0.10)';this.style.background='#f7f5fb';">
+      <h3 style="font-size:1.15em;margin:0.3em 0 0.5em 0;font-weight:600;color:#482884;">
+        Oracle GenAI Certified Professional
+      </h3>
+      <div style="color:#7f7c97;font-size:0.97em;margin-bottom:1.1em;">
+        Jul 25, 2024
+      </div>
+      <a href="https://drive.google.com/your_oracle_pdf_link" target="_blank"
+         style="background:#7f51e7;color:white;font-weight:500;padding:0.55em 1.3em;
+         border-radius:0.8em;text-decoration:none;transition:background 0.15s;box-shadow:0 2px 4px rgba(110,80,255,0.10);margin-top:auto;"
+         onmouseover="this.style.background='#482884'"
+         onmouseout="this.style.background='#7f51e7'">
+        View Certification
+      </a>
+    </div>
+    <div style="background: #f7f5fb; box-shadow: 0 2px 12px rgba(127,81,231,0.10); border-radius: 1.2em; padding: 1.7em 2em; min-width: 230px; max-width: 270px; text-align: center; display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem; transition: transform 0.2s, box-shadow 0.22s;" onmouseover="this.style.transform='translateY(-7px) scale(1.045)';this.style.boxShadow='0 8px 28px rgba(127,81,231,0.18)';this.style.background='#efe5ff';" onmouseout="this.style.transform='none';this.style.boxShadow='0 2px 12px rgba(127,81,231,0.10)';this.style.background='#f7f5fb';">
+      <h3 style="font-size:1.15em;margin:0.3em 0 0.5em 0;font-weight:600;color:#482884;">
+        ServiceNow Certified Sys. Admin (CSA)
+      </h3>
+      <div style="color:#7f7c97;font-size:0.97em;margin-bottom:1.1em;">
+        Jun 16, 2025
+      </div>
+      <a href="https://drive.google.com/file/d/1XtV8a1r9QvHETV5OuM7bUG2NOPZt4z9w/view?usp=sharing" target="_blank"
+         style="background:#7f51e7;color:white;font-weight:500;padding:0.55em 1.3em;
+         border-radius:0.8em;text-decoration:none;transition:background 0.15s;box-shadow:0 2px 4px rgba(110,80,255,0.10);margin-top:auto;"
+         onmouseover="this.style.background='#482884'"
+         onmouseout="this.style.background='#7f51e7'">
+        View Certification
+      </a>
+    </div>
+    <div style="background: #f7f5fb; box-shadow: 0 2px 12px rgba(127,81,231,0.10); border-radius: 1.2em; padding: 1.7em 2em; min-width: 230px; max-width: 270px; text-align: center; display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem; transition: transform 0.2s, box-shadow 0.22s;" onmouseover="this.style.transform='translateY(-7px) scale(1.045)';this.style.boxShadow='0 8px 28px rgba(127,81,231,0.18)';this.style.background='#efe5ff';" onmouseout="this.style.transform='none';this.style.boxShadow='0 2px 12px rgba(127,81,231,0.10)';this.style.background='#f7f5fb';">
+      <h3 style="font-size:1.15em;margin:0.3em 0 0.5em 0;font-weight:600;color:#482884;">
+        ServiceNow Certified App Developer (CAD)
+      </h3>
+      <div style="color:#7f7c97;font-size:0.97em;margin-bottom:1.1em;">
+        Jul 15, 2025
+      </div>
+      <a href="https://drive.google.com/file/d/1y2YmAEi9IIevv_V9h9CO3R6Ox3Ci4rQ8/view?usp=sharing" target="_blank"
+         style="background:#7f51e7;color:white;font-weight:500;padding:0.55em 1.3em;
+         border-radius:0.8em;text-decoration:none;transition:background 0.15s;box-shadow:0 2px 4px rgba(110,80,255,0.10);margin-top:auto;"
+         onmouseover="this.style.background='#482884'"
+         onmouseout="this.style.background='#7f51e7'">
+        View Certification
+      </a>
+    </div>
+    
+  </div>
+</section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact__container bd-grid">
+                <form action="mailto:2200030510cseh@gmail.com" method="post" enctype="text/plain" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input" name="name">
+                    <input type="email" placeholder="Email" class="contact__input" name="email">
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Sannepalli Brahmani</p>
+        <div class="footer__social"></div>
+        <p class="footer__copy">&#169; 2025 Sannepalli Brahmani. All rights reserved.</p>
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
